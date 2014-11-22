@@ -58,7 +58,8 @@ body {
   text-shadow: 0 0 2px #000; 
   -moz-text-shadow: 0 0 2px #000;
   -webkit-text-shadow: 0 0 2px #000;
-  color: #FFF705;
+  color: #fff;
+  background-color: rgba(255,247,5,.8);
 }
 
 /* Declare heights because of positioning of img element */
@@ -256,4 +257,8 @@ section {
 
 .text-justify {
   text-align: justify;
+}
+
+.marg-t-15 {
+  margin-top: 15px;
 }
