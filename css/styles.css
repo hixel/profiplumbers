@@ -250,6 +250,11 @@ section {
     background-color:#e6e6e6;
 }
 
+.bg-5 {
+  padding-top:30px;
+  background-color:#def7e0;
+}
+
 .panel .img-responsive {
 	min-height:270px;
     max-height:270px;
@@ -261,4 +266,9 @@ section {
 
 .marg-t-15 {
   margin-top: 15px;
+}
+
+.projects-title {
+  color: black;
+  text-align: center;
 }

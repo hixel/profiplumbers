@@ -14,244 +14,362 @@
 		<link href="css/styles.css" rel="stylesheet">
 	</head>
 	<body>
-  <!-- Wrap all page content here -->
-  <div id="wrap">
+    <!-- Wrap all page content here -->
+    <div id="wrap">
 
-   
-  <header class="masthead">
+      <header class="masthead">
 
-    	<!-- Carousel
-      ================================================== -->
-      <div id="myCarousel" class="carousel slide">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#myCarousel" data-slide-to="1"></li>
-          <li data-target="#myCarousel" data-slide-to="2"></li>
-          <li data-target="#myCarousel" data-slide-to="3"></li>
-          <li data-target="#myCarousel" data-slide-to="4"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="item active">
-            <img src="images/poliprop_pipe.jpg">
-            <div class="container">
-              <div class="carousel-caption">
-                <h1>Водопровод</h2>
+        	<!-- Carousel
+          ================================================== -->
+          <div id="myCarousel" class="carousel slide">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+              <li data-target="#myCarousel" data-slide-to="3"></li>
+              <li data-target="#myCarousel" data-slide-to="4"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="item active">
+                <!-- <img src="images/poliprop_pipe.jpg"> -->
+                <div class="container">
+                  <div class="carousel-caption">
+                    <h1>Водопровод</h2>
+                  </div>
+                </div>
               </div>
-            </div>
+              <div class="item">
+                <!-- <img src="images/radiator.jpg"> -->
+                <div class="container">
+                  <div class="carousel-caption">
+                    <h1>Системы отопления</h2>
+                    <p></p>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <!-- <img src="images/gas_boiler.jpg"> -->
+                <div class="container">
+                  <div class="carousel-caption">
+                    <h1>Газовые котлы</h2>
+                  </div>
+                </div>
+              </div>   
+              <div class="item">
+                <!-- <img src="images/underfloor_heating.jpg"> -->
+                <div class="container">
+                  <div class="carousel-caption">
+                    <h1>Теплые полы</h2>
+                  </div>
+                </div>
+              </div>    
+              <div class="item">
+                <!-- <img src="images/septic.jpg"> -->
+                <div class="container">
+                  <div class="carousel-caption">
+                    <h1>Канализация и септик</h2>
+                  </div>
+                </div>
+              </div>  
+            </div><!-- /.carousel-inner -->
+            <div class="logo">
+              <h1>Профессиональные Сантехники</h1>
+            </div> 
+            <!-- Controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>  
           </div>
-          <div class="item">
-            <img src="images/radiator.jpg">
-            <div class="container">
-              <div class="carousel-caption">
-                <h1>Системы отопления</h2>
-                <p></p>
-              </div>
+          <!-- /.carousel -->
+        
+      </header>
+        
+      <!-- Fixed navbar -->
+      <div class="navbar navbar-custom navbar-inverse navbar-static-top" id="nav">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
             </div>
-          </div>
-          <div class="item">
-            <img src="images/gas_boiler.jpg">
-            <div class="container">
-              <div class="carousel-caption">
-                <h1>Газовые котлы</h2>
-              </div>
-            </div>
-          </div>   
-          <div class="item">
-            <img src="images/underfloor_heating.jpg">
-            <div class="container">
-              <div class="carousel-caption">
-                <h1>Теплые полы</h2>
-              </div>
-            </div>
-          </div>    
-          <div class="item">
-            <img src="images/septic.jpg">
-            <div class="container">
-              <div class="carousel-caption">
-                <h1>Канализация и септик</h2>
-              </div>
-            </div>
-          </div>  
-        </div><!-- /.carousel-inner -->
-        <div class="logo">
-          <h1>Профессиональные Сантехники</h1>
-        </div> 
-        <!-- Controls -->
-        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-          <span class="glyphicon glyphicon-chevron-left"></span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" data-slide="next">
-          <span class="glyphicon glyphicon-chevron-right"></span>
-        </a>  
-      </div>
-      <!-- /.carousel -->
-    
-  </header>
-    
-  <!-- Fixed navbar -->
-  <div class="navbar navbar-custom navbar-inverse navbar-static-top" id="nav">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
-        <div class="collapse navbar-collapse">
-          <ul class="nav navbar-nav nav-justified">
-            <li><a href="#section1">О нас</a></li>
-            <li><a href="#section2">Поставщики</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Наши проекты <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="#section3">Отопление</a></li>
-                <li><a href="#">Водопровод</a></li>
-                <li><a href="#">Установка котлов</a></li>
-                <li><a href="#">Канализация</a></li>
+            <div class="collapse navbar-collapse">
+              <ul class="nav navbar-nav nav-justified">
+                <li><a href="#section1">О нас</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Наши проекты <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#section2">Отопление</a></li>
+                    <li><a href="#">Водопровод</a></li>
+                    <li><a href="#">Установка котлов</a></li>
+                    <li><a href="#">Канализация</a></li>
+                  </ul>
+                </li>
+                <li><a href="#section3">Поставщики</a></li>
+                <li><a href="#section5">Контакты</a></li>
               </ul>
-            </li>
-            <li><a href="#section5">Контакты</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div><!--/.container -->
-  </div><!--/.navbar -->
-  
-  <div class="divider" id="section1"></div>
-  
-  <div class="container">
-    
-    <div class="row">
-      <div class="col-md-6 column">
-        <blockquote>
-          <p class="lead text-justify"> 
-            Мы группа высокопрофессиональных сантехников. Уже <b>8 лет</b> занимаемся любыми видами сантехнических работ - водопровод,
-            канализация, септик, теплые полы, установка газовых котлов.     
-          </p>
-        </blockquote>
+            </div><!--/.nav-collapse -->
+          </div><!--/.container -->
+      </div><!--/.navbar -->
+      
+      <div class="divider" id="section1"></div>
+      
+      <div class="container">
+        
+        <div class="row">
+          <div class="col-md-6 column">
+            <blockquote>
+              <p class="lead text-justify"> 
+                Мы группа высокопрофессиональных сантехников. Уже <b>8 лет</b> занимаемся любыми видами сантехнических работ - водопровод,
+                канализация, септик, теплые полы, установка газовых котлов.     
+              </p>
+            </blockquote>
+          </div>
+          <div class="col-md-6 column">
+              <blockquote>
+              <p class="lead text-justify"> 
+                Обслуживание и монтаж сантехники в <b>коттеджах, частных домах, промышленных объектах и квартирах</b>.     
+              </p>
+            </blockquote>
+          </div>
+        </div>
+        
+        <div class="row">
+          <div class="col-md-6 column">
+            <blockquote>
+              <p class="lead text-justify"> 
+                Грамотный и квалифицированный монтаж. Все ньюансы и детали проекта обсуждаются с заказчиком до выполнения проекта и 
+                при необходимости изменений фиксируются.
+              </p>
+            </blockquote>
+          </div>
+          <div class="col-md-6 column">
+              <blockquote>
+              <p class="lead text-justify"> 
+                Имеется лицензия и сертификаты. На все виды работ предоставляется гарантия от <b>1 года.</b>     
+              </p>
+            </blockquote>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 column">
+              <blockquote>
+              <p class="lead text-justify"> 
+                Доступные цены и гибкая ценовая политика. Чем <b>выше объемы работ</b> - тем <b>ниже цена</b>. Сотрудничаем с крупными поставщиками 
+                оборудования и материалов, вследствии чего <b>имеем возможность закупать материалы со скидкой</b>, опять же с выгодой для Вас.    
+              </p>
+            </blockquote>
+          </div>
+          <div class="col-md-6 column">
+            <blockquote>
+              <p class="lead text-justify"> 
+                Возможность <b>наличного и безналичного</b> расчета. Постоянным клиентам скидки.   
+              </p>
+            </blockquote>
+          </div>
+        </div>
+
+        <hr>
+        <div class="divider"></div>
       </div>
-      <div class="col-md-6 column">
-          <blockquote>
-          <p class="lead text-justify"> 
-            Обслуживание и монтаж сантехники в <b>коттеджах, частных домах, промышленных объектах и квартирах</b>.     
-          </p>
-        </blockquote>
+
+      <div class="divider" id="section2"></div>
+
+      <div class="bg-4">
+        <div class="row">
+          <div class="col-md-3">
+            <h1 class="projects-title">Проекты</h1></div>
+          <div class="col-md-3">
+            
+          </div>
+          <div class="col-md-3"></div>
+          <div class="col-md-3"></div>
+        </div>
+
+        
+        <div class="container">
+          <div class="row">
+           <div class="col-sm-4 col-xs-6">
+            
+              <div class="panel panel-default">
+                <div class="panel-thumbnail"><a href="#" title="Renovations"><img src="images/projects/boiler_1.jpg" class="img-responsive"></a></div>
+                <div class="panel-body">
+                  <p>Газовое оборудование</p>
+                  <p></p>
+
+                </div>
+              </div><!--/panel-->
+            </div><!--/col-->
+            
+            <div class="col-sm-4 col-xs-6">
+            
+              <div class="panel panel-default">
+                <div class="panel-thumbnail"><a href="#" title="Academic Institutions"><img src="images/projects/boiler_2.jpg" class="img-responsive"></a></div>
+                <div class="panel-body">
+                  <p>Academic Institutions</p>
+                  <p></p>
+                  
+                </div>
+              </div><!--/panel--> 
+            </div><!--/col-->
+            
+            <div class="col-sm-4 col-xs-6">
+            
+              <div class="panel panel-default">
+                <div class="panel-thumbnail"><a href="#" title="Interiors"><img src="//placehold.it/600x400/555/F2F2F2" class="img-responsive"></a></div>
+                <div class="panel-body">
+                  <p>Interiors</p>
+                  <p></p>
+                  
+                </div>
+              </div><!--/panel--> 
+
+            </div><!--/col--> 
+            
+            <div class="col-sm-4 col-xs-6">
+            
+              <div class="panel panel-default">
+                <div class="panel-thumbnail"><a href="#" title="New Construction"><img src="//placehold.it/600x400/555/FFF" class="img-responsive"></a></div>
+                <div class="panel-body">
+                  <p>New Construction</p>
+                  <p></p>
+                  
+                </div>
+              </div><!--/panel--> 
+
+            </div><!--/col--> 
+            
+            <div class="col-sm-4 col-xs-6">
+            
+              <div class="panel panel-default">
+                <div class="panel-thumbnail"><a href="#" title="Site Planning"><img src="//placehold.it/600x400/555/EEE" class="img-responsive"></a></div>
+                <div class="panel-body">
+                  <p>Site Planning</p>
+                  <p></p>
+                  
+                </div>
+              </div><!--/panel--> 
+
+            </div><!--/col--> 
+            
+            <div class="col-sm-4 col-xs-6">
+            
+              <div class="panel panel-default">
+                <div class="panel-thumbnail"><a href="#" title="Churches"><img src="//placehold.it/600x400/666/F4F4F4" class="img-responsive"></a></div>
+                <div class="panel-body">
+                  <p>Churches</p>
+                  <p></p>
+                  
+                </div>
+              </div><!--/panel--> 
+
+            </div><!--/col--> 
+            
+          </div><!--/row-->
+        </div><!--/container-->
+
+        <div class="divider"></div>
+      </div>
+
+      <div class="divider" id="section3"></div>
+
+      <div>
+        <!-- <div class="container">
+          <div class="row">
+            <h2>Наши Поставщики</h2>
+
+            <div class="col-md-4">
+              <img src="images/partners/gigaz.jpg" class="img-rounded">
+            </div>
+
+            <div class="col-md-4">
+              <img src="images/partners/termofort.jpg" class="img-rounded">
+            </div>
+
+            <div class="col-md-4">
+              <img src="images/partners/aqua.png" class="img-rounded">
+            </div>
+          </div>
+
+          <div class="row marg-t-15">
+            <div class="col-md-4">
+              <img src="images/partners/vodolei.png" class="img-rounded">
+            </div>
+            <div class="col-md-4">
+              <img src="images/partners/tebo.png" class="img-rounded">
+            </div>
+            <div class="col-md-4">
+              <img src="images/partners/ustm.jpg" class="img-rounded">
+            </div>
+          </div>
+
+          <div class="row marg-t-15">
+            <div class="col-md-4">
+              <img src="images/partners/ferroli.jpg" class="img-rounded">
+            </div>
+            <div class="col-md-4">
+              <img src="images/partners/koreastar.jpg" class="img-rounded">
+            </div>
+            <div class="col-md-4">
+              <img src="images/partners/zota.jpg" class="img-rounded">
+            </div>
+          </div>
+
+          <div class="row marg-t-15">
+            <div class="col-md-4">
+              <img src="images/partners/wester.png" class="img-rounded">
+            </div>
+            <div class="col-md-4">
+              <img src="images/partners/thermagent.png" class="img-rounded">
+            </div>
+            <div class="col-md-4">
+            </div>
+          </div>
+
+          <hr>
+          <div class="divider"></div>
+        </div> -->
+      </div><!-- поставщики -->
+    </div><!--/wrap-->
+
+    <div class="modal" id="myModal" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title"></h3>
+          </div>
+
+          <div class="modal-body">
+            <div id="modalCarousel" class="carousel">
+         
+              <div class="carousel-inner"></div>
+                  
+              <a class="carousel-control left" href="#modaCarousel" data-slide="prev">
+                <i class="glyphicon glyphicon-chevron-left"></i>
+              </a>
+              <a class="carousel-control right" href="#modalCarousel" data-slide="next">
+                <i class="glyphicon glyphicon-chevron-right"></i>
+              </a>
+                  
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button class="btn btn-success" data-dismiss="modal">Закрыть</button>
+          </div>
+       </div>
       </div>
     </div>
-    
-    <div class="row">
-      <div class="col-md-6 column">
-        <blockquote>
-          <p class="lead text-justify"> 
-            Грамотный и квалифицированный монтаж. Все ньюансы и детали проекта обсуждаются с заказчиком до выполнения проекта и 
-            при необходимости изменений фиксируются.
-          </p>
-        </blockquote>
-      </div>
-      <div class="col-md-6 column">
-          <blockquote>
-          <p class="lead text-justify"> 
-            На все виды работ предоставляется гарантия от <b>1 года</b>     
-          </p>
-        </blockquote>
-      </div>
-    </div>
 
-    <div class="row">
-      <div class="col-md-6 column">
-          <blockquote>
-          <p class="lead text-justify"> 
-            Доступные цены и гибкая ценовая политика. Чем <b>выше объемы работ</b> - тем <b>ниже цена</b>. Сотрудничаем с крупными поставщиками 
-            оборудования и материалов, вследствии чего <b>имеем возможность закупать материалы со скидкой</b>, опять же с выгодой для Вас.    
-          </p>
-        </blockquote>
-      </div>
-      <div class="col-md-6 column">
-        <blockquote>
-          <p class="lead text-justify"> 
-            Возможность <b>наличного и безналичного</b> расчета. Постоянным клиентам скидки.   
-          </p>
-        </blockquote>
-      </div>
-    </div>
-
-    <hr>
-    <div class="divider"></div>
-
-    <div class="divider" id="section2"></div>
-</div>
-
-<div>
-  <div class="container">
-    <div class="row">
-      <h2>Наши Поставщики</h2>
-
-      <div class="col-md-4">
-        <img src="images/partners/gigaz.jpg" class="img-rounded">
-      </div>
-
-      <div class="col-md-4">
-        <img src="images/partners/termofort.jpg" class="img-rounded">
-      </div>
-
-      <div class="col-md-4">
-        <img src="images/partners/aqua.png" class="img-rounded">
-      </div>
-    </div>
-
-    <div class="row marg-t-15">
-      <div class="col-md-4">
-        <img src="images/partners/vodolei.png" class="img-rounded">
-      </div>
-      <div class="col-md-4">
-        <img src="images/partners/tebo.png" class="img-rounded">
-      </div>
-      <div class="col-md-4">
-        <img src="images/partners/ustm.jpg" class="img-rounded">
-      </div>
-    </div>
-
-    <div class="row marg-t-15">
-      <div class="col-md-4">
-        <img src="images/partners/ferroli.jpg" class="img-rounded">
-      </div>
-      <div class="col-md-4">
-        <img src="images/partners/koreastar.jpg" class="img-rounded">
-      </div>
-      <div class="col-md-4">
-        <img src="images/partners/zota.jpg" class="img-rounded">
-      </div>
-    </div>
-
-    <div class="row marg-t-15">
-      <div class="col-md-4">
-        <img src="images/partners/wester.png" class="img-rounded">
-      </div>
-      <div class="col-md-4">
-        <img src="images/partners/thermagent.png" class="img-rounded">
-      </div>
-      <div class="col-md-4">
-      </div>
-    </div>
-
-    <hr>
-    <div class="divider"></div>
-  </div>
-</div>
-
-<div class="container">
-  <div class="divider" id="section3"></div>
-
-  <div class="row">
-    <h2>Проекты</h2>
-  </div>
-</div>
-
-	<!-- script references -->
+    <!-- script references -->
     <script src="js/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
-		<script src="http://maps.googleapis.com/maps/api/js?sensor=false&extension=.js&output=embed"></script>
 		<script src="js/scripts.js"></script>
 	</body>
 </html>
