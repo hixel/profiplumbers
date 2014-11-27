@@ -46,7 +46,7 @@ $(document).ready(function(){$('.carousel').carousel({interval:false});
 
   /* change modal title when slide changes */
   $('#modalCarousel').on('slid.bs.carousel', function () {
-    $('.modal-title').html($(this).find('.active').attr("title"));
+    //$('.modal-title').html($(this).find('.active').attr("title"));
   })
 
   /* when clicking a thumbnail */

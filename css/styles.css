@@ -71,8 +71,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  min-width: 100%;
-  height: 600px;
+  max-width: 2048px;
 }
 
 
@@ -266,6 +265,10 @@ section {
 
 .marg-t-15 {
   margin-top: 15px;
+}
+
+.marg-l-65 {
+  margin-left: 65px;
 }
 
 .projects-title {
