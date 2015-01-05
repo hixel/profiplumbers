@@ -27,7 +27,6 @@ $(document).ready(function(){$('.carousel').carousel({interval:false});
   $('.panel .img-responsive').on('load', function() {
     
   }).each(function(i) {
-    if(this.complete) {
     	var item = $('<div class="item"></div>');
       var itemDiv = $(this).parent('a');
       var title = $(this).parent('a').attr("title");
@@ -35,10 +34,10 @@ $(document).ready(function(){$('.carousel').carousel({interval:false});
       item.attr("title",title);
     	$(itemDiv.html()).appendTo(item);
     	item.appendTo('#modalCarousel .carousel-inner'); 
+
       if (i==0){ // set first item active
-       item.addClass('active');
+        item.addClass('active');
       }
-    }
   });
 
   /* activate the carousel */
@@ -53,9 +52,10 @@ $(document).ready(function(){$('.carousel').carousel({interval:false});
   $('.panel-thumbnail>a').click(function(e){
     
       e.preventDefault();
-      var idx = $(this).parents('.panel').parent().index();
-    	var id = parseInt(idx);
+      var id = parseInt($(this).parents('.panel').parent().index());
     	
+      jQuery.noConflict();
+
     	$('#myModal').modal('show'); // show the modal
       $('#modalCarousel').carousel(id); // slide carousel to selected
     	return false;
